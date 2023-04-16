@@ -1,0 +1,300 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+#doctor-con {
+  background: url(images/doctor.png) right top / cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #doctor-con {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #doctor-con {
+    width: 100%;
+    height: 100%;
+    background: url(images/hero-doctor-4.jpg) right top / cover no-repeat;
+  }
+}
+/*header su logotipu ir log in*/
+.header {
+  padding-top: 60px;
+  width: 100%;
+  padding-bottom: 221px;
+}
+#login-btn {
+  background-color: #00cbd5;
+  border-radius: 8px;
+  color: white;
+  width: 121px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#login-btn:hover {
+  background-color: #001b48;
+}
+.login-btn-container {
+  text-align: right;
+  padding-top: 20px;
+}
+@media (max-width: 576px) {
+  .login-btn-container {
+    padding-top: 30px;
+    text-align: left;
+  }
+}
+/*================*/
+/*header vidinis tekstas*/
+.header-text1 {
+  padding-top: 50px;
+  text-align: left;
+  color: #001b48;
+  margin-bottom: -10px;
+}
+.header-text2 {
+  text-align: left;
+  color: #dc3e7d;
+}
+.header-text3 {
+  text-align: left;
+  padding-top: 30px;
+  color: #001b48;
+  font-weight: normal;
+}
+@media (max-width: 992px) {
+  .inner-text {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding-left: 50px !important;
+    margin-top: 110px;
+  }
+}
+@media (max-width: 992px) {
+  .header-text1,
+  .header-text2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 992px) {
+  .header-text3 {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+/*max screen dydis*/
+@media (min-width: 992px) {
+  .inner-text {
+    width: 100%;
+    height: 100%;
+    padding-left: 192px !important;
+    margin-top: 153px !important;
+  }
+}
+@media (min-width: 992px) {
+  .header-text1,
+  .header-text2 {
+    font-size: 64px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 992px) {
+  .header-text3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+/*vidinio teksto mygtukai*/
+.reg-btns {
+  flex-wrap: wrap;
+  padding-top: 48px;
+}
+#reg-patient {
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 8px;
+  color: #001b48;
+  border-color: #001b48;
+}
+#reg-patient:hover {
+  background-color: #a8eaef;
+  border: 1px solid #a8eaef;
+}
+#reg-doctor {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #001b48;
+}
+#reg-doctor:hover {
+  color: #00cbd5;
+}
+.reg-doctor-icon {
+  padding-left: 12px;
+  color: #00cbd5;
+}
+/*lets start with a smile sekcija*/
+.header-smile {
+  color: #001b48;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 80px;
+  text-align: center;
+}
+.smile-box {
+  border-radius: 8px;
+  border: 2px solid hsl(340, 100%, 44%, 0.5);
+}
+/*pirmas tekstas po icon*/
+.under-icon-smile-1 {
+  padding-top: 12px;
+  font-size: 24px;
+  color: #001b48;
+  text-align: left;
+}
+/*antras tekstas po icon*/
+.under-icon-smile-2 {
+  padding-right: 15px;
+  font-size: 16px;
+  color: #001b48;
+}
+/*get started mygtukas*/
+#started-btn {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  background-color: #00cbd5;
+  border-radius: 8px;
+  color: white;
+  height: 51px;
+  width: 250px;
+}
+#started-btn:hover {
+  background-color: #001b48;
+}
+/*sekcija su privalumais*/
+.section-2 {
+  background: linear-gradient(
+      rgba(245, 246, 252, 0.5),
+      rgba(154, 125, 143, 0.5)
+    ),
+    url(images/background-skull.png) right top / cover no-repeat;
+  padding-top: 97px;
+  padding-bottom: 97px;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}
+@media (max-width: 991px) {
+  .section-2 {
+    background: linear-gradient(
+        rgba(245, 246, 252, 0.5),
+        rgba(154, 125, 143, 0.5)
+      ),
+      url(images/background-skull-2x.png) right top / cover no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .section-2 {
+    background: linear-gradient(
+        rgba(245, 246, 252, 0.5),
+        rgba(154, 125, 143, 0.5)
+      ),
+      url(images/background-skull-4.png) right top / cover no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+}
+.advantages-box {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  height: 300px;
+}
+.advantages-box img {
+  padding-top: 40px;
+}
+.advantages-text-1 {
+  color: white;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+/*klausymo sekcija*/
+.section-3 {
+  padding-top: 100px;
+}
+.question-text {
+  color: #001b48;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+#question-join-btn {
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  height: 42px;
+  padding-right: 70px;
+  padding-left: 70px;
+  color: #001b48;
+  border-color: #001b48;
+}
+#question-join-btn:hover {
+  background-color: #a8eaef;
+  border: 1px solid #a8eaef;
+}
+/*nukreipiemeji linkai ir info*/
+.section-4 {
+  padding-bottom: 110px;
+  background-color: #3f5573;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 360px;
+  background-image: url(images/undraw_doctors_hwty\ copy.png);
+}
+.about-comp {
+  padding-top: 100px;
+  opacity: 1;
+  height: 100%;
+}
+.about-comp-text {
+  padding-top: 60px;
+  font-size: 14px;
+  color: #fefeff;
+  text-align: justify;
+}
+.bottom-doctors {
+  padding-left: 120px;
+  padding-top: -30px;
+}
+/*copyright vieta*/
+.home-page-bottom {
+  text-align: center;
+  padding-top: 24px;
+  height: 64px;
+  font-size: 12px;
+  color: #fefeff;
+  background-color: #001b48;
+}
+#home-page-bottom-btn {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #00cbd5;
+}
+#home-page-bottom-btn:hover {
+  text-decoration: underline;
+}
